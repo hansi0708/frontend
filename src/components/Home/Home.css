@@ -1,0 +1,43 @@
+/* HomePage.css */
+.homepage {
+  text-align: center;
+  padding: 50px;
+}
+
+.hero-section {
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.feature h2 {
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+}

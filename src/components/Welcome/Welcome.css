@@ -1,0 +1,114 @@
+.body {
+  padding: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffa333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body .main {
+  padding: 1% 1% 1% 1%;
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.body .main .container {
+  padding: 1% 1% 1% 1%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  background-image: url("../bg_image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 50vw;
+  height: 80vh;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Initial rotation angle */
+  }
+  to {
+    transform: rotate(
+      360deg
+    ); /* Final rotation angle (360 degrees for a full rotation) */
+  }
+}
+
+.left-container {
+  width: 50vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-container h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.left-container .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.left-container .buttons .btn-primary {
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.featured-astrologers {
+  padding: 80px 0;
+}
+
+.featured-astrologers h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+Quick access section styles .quick-access {
+  padding: 80px 0;
+}
+
+.quick-access h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
